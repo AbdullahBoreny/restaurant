@@ -1,8 +1,6 @@
 import heroImage from "./templates/res.jpg";
 import "./styles/general.css";
 import "./styles/index.css";
-import "./styles/menu.css";
-import "./styles/about.css";
 import menuPage from "./menu";
 import aboutPage from "./about";
 const menuContainer = document.querySelector(".menu-container");

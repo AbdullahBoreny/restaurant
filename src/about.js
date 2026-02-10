@@ -1,3 +1,4 @@
+import "./styles/about.css";
 
 const aboutPage = function () {
   const h1 = document.createElement("h1");

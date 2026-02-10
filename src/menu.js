@@ -1,4 +1,5 @@
 import heroImage from "./templates/res.jpg";
+import "./styles/menu.css";
 
 const menuPage = function () {
   const content = document.querySelector("#content")
