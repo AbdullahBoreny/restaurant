@@ -1,5 +1,4 @@
-import "./styles/about.css";
-import { createComponent, cleanDom } from "./index";
+import { createComponent, cleanDom } from "./dom";
 
 const aboutPage = function () {
   cleanDom();
