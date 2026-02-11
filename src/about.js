@@ -1,6 +1,8 @@
 import "./styles/about.css";
+import { createComponent, cleanDom } from "./index";
 
 const aboutPage = function () {
+  cleanDom();
   const h1 = document.createElement("h1");
   const paragraph = document.createElement("p");
   const h2 = document.createElement("h2");

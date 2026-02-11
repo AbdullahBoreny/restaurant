@@ -1,11 +1,10 @@
 import heroImage from "./templates/res.jpg";
 import "./styles/menu.css";
+import { createComponent,cleanDom } from "./index";
 
 const menuPage = function () {
-  const content = document.querySelector("#content")
   const menuContainer = document.querySelector(".menu-container");
-  menuContainer.textContent = "";
-  content.textContent = "";
+  cleanDom();
   const img = document.createElement("img");
   img.src = heroImage;
   const menuDiv = document.createElement("div");
