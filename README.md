@@ -19,6 +19,7 @@ Restaurant page project built with JavaScript and Webpack, featuring SPA-like na
 ## to deploy code to github pages
 
 ```bash
+git branch gh-pagea
 git checkout gh-pages && git merge main --no-edit
 npx webpack
 git add dist -f && git commit -m "Deployment commit"
